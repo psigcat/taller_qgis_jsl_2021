@@ -15,10 +15,11 @@ Incorpora el número de lesionados segun gravedad, el número de vehículos y el
 #### Descargar CSV del 2020
 https://opendata-ajuntament.barcelona.cat/data/es/dataset/accidents-gu-bcn
 
-Inmediatamente convertir la capa en formato **GeoPackage**
-
 ## Abrimos QGIS y cargamos el CSV como Texto Delimitado
 ![Demo para cargar CSV](./Imagenes/text_delimitado_load_csv.png)
+
+## Convertimos a GeoPackage
+Inmediatamente convertir la capa en formato **GeoPackage**
 
 # 1- CALCULADORA DE CAMPOS
 Primero abrimos la tabla de atributos para ietificar que valores podemos utilizar.
