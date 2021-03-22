@@ -32,3 +32,12 @@ Detectar que campos podemos utilizar para crear un campo de tipo **fecha** (date
 
 ### Crear otro campo nuevo con el nombre [dia_anyo] de tipo "entero", y calcularemos el día del año, a partir del 1 de enero del 2020
 <code>day(age("fecha" ,  to_date( '2020-01-01')))</code>
+
+# 2- TIME MANAGER
+Primero preparamso el proyecto, vamos a las propiedades del prpyecto para definir fecha inical y final
+![Propiedades del proyecto de QGIS](./Imagenes/propiedades_proyecto.png)
+
+### Definimos las propiedades de la capa de accidentes:
+![Propiedades de la capa de accidentes](./Imagenes/propiedades_capa_accidentes_1.png)
+
+![Propiedades de la capa de accidentes](./Imagenes/propiedades_capa_accidentes_2.png)
