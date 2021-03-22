@@ -3,10 +3,10 @@
 
 
 ## RESUMEN
-En este taller vamos a ver diversas opciones para manejar el tiempo en los mapas
-1. Lo utilizaremos en la **calculadora de campos**
-2. Luego lo utilizaremos en el Panel "**Time Manager**" (Panel Controlador temporal)
-3. **Atlas** para exportar serie de imágenes
+En este taller vamos a ver diversas opciones para manejar el tiempo en los mapas:utilizaremos
+1. La **calculadora de campos**
+2. El Panel "**Time Manager**" (Panel Controlador temporal)
+3. El **Atlas**, para exportar serie de imágenes
 
 
 #### DESCARGAR ACCIDENTES DE BARCELONA DEL 2020
