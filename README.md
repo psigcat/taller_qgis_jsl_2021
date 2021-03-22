@@ -20,30 +20,3 @@ https://opendata-ajuntament.barcelona.cat/data/es/dataset/accidents-gu-bcn
 
 ## Convertimos a GeoPackage
 Inmediatamente convertir la capa en formato **GeoPackage**
-
-# 1- CALCULADORA DE CAMPOS
-Primero abrimos la tabla de atributos para ietificar que valores podemos utilizar.
-Detectar que campos podemos utilizar para crear un campo de tipo **fecha** (date)
-
-### Crear un campo nuevo con el nombre [fecha] de tipo "fecha", y utilizamos la siguiente expresión para asignarle el valor de fecha correspondiente
-<code>make_date(  "NK_Any" , "Mes_any" , "Dia_mes" )</code>
-
-### Crear otro campo nuevo con el nombre [fecha_fin] de tipo "fecha", y calcularemos la fecha 15 después de la fecha del accidentes
-<code>"fecha" +  to_interval( '15 day')</code>
-
-### Crear otro campo nuevo con el nombre [dia_anyo] de tipo "entero", y calcularemos el día del año, a partir del 1 de enero del 2020
-<code>day(age("fecha" ,  to_date( '2020-01-01')))</code>
-
-# 2- TIME MANAGER
-Primero preparamso el proyecto, vamos a las propiedades del prpyecto para definir fecha inical y final
-![Propiedades del proyecto de QGIS](./Imagenes/propiedades_proyecto.png)
-
-### Definimos las propiedades de la capa de accidentes:
-## Opción 1: Una fecha
-![Propiedades de la capa de accidentes](./Imagenes/propiedades_capa_accidentes_1.png)
-
-## Opción 2: fecha de incio y fecha de fin
-![Propiedades de la capa de accidentes](./Imagenes/propiedades_capa_accidentes_2.png)
-
-## Observamos el panel "Time Manager"
-![Time Manager](./Imagenes/time_manager_accidentes.png)
