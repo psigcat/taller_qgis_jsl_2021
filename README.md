@@ -44,5 +44,5 @@ Primero preparamso el proyecto, vamos a las propiedades del prpyecto para defini
 ## Opción 2: fecha de incio y fecha de fin
 ![Propiedades de la capa de accidentes](./Imagenes/propiedades_capa_accidentes_2.png)
 
-## OBservacmos el panel "Time Manager"
-![Propiedades de la capa de accidentes](./Imagenes/propiedades_capa_accidentes_2.png)
+## Observamos el panel "Time Manager"
+![Time Manager](./Imagenes/time_manager_accidentes.png)
