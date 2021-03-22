@@ -13,3 +13,7 @@ Detectar que campos podemos utilizar para crear un campo de tipo **fecha** (date
 
 ### Crear otro campo nuevo con el nombre [dia_anyo] de tipo "entero", y calcularemos el día del año, a partir del 1 de enero del 2020
 <code>day(age("fecha" ,  to_date( '2020-01-01')))</code>
+
+
+#### Más información aquí:
+https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/functions_list.html#date-and-time-functions
