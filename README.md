@@ -12,7 +12,7 @@ En este taller vamos a ver diversas opciones para manejar el tiempo en los mapas
 #### DESCARGAR ACCIDENTES DE BARCELONA DEL 2020
 Accidentes gestionados por la Guardía Urbana en la ciudad de Barcelona.
 Incorpora el número de lesionados segun gravedad, el número de vehículos y el punto de impacto.
-#### Descargar CSV del 2020
+#### Descargar el fichero CSV del año 2020
 https://opendata-ajuntament.barcelona.cat/data/es/dataset/accidents-gu-bcn
 
 ## Abrimos QGIS y cargamos el CSV como Texto Delimitado
