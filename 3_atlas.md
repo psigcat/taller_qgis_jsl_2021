@@ -32,7 +32,7 @@ Diseño:
 ### Configuramos el Atlas
 ![Configuración del Atlas](./Imagenes/Configuracion_atlas.png)
 
-![Configuración del Atlas](./Imagenes/dia_anio_024.png)
+![Configuración del Atlas](./Imagenes/dia_anio_024.jpeg)
 ### Añadimos elemento mapa
 Propiedades del mapa:
 - Controlado por Atlas
