@@ -31,3 +31,15 @@ Diseño:
 
 ### Configuramos el Atlas
 ![Configuración del Atlas](./Imagenes/Configuracion_atlas.png)
+
+![Configuración del Atlas](./Imagenes/dia_anio_024.png)
+### Añadimos elemento mapa
+Propiedades del mapa:
+- Controlado por Atlas
+- Escala fijada
+### Añadimos elemento de Texto
+Propiedades del Texto:
+Insertar expresión para que muestre la fecha con el fromato deseado:
+
+
+dia_anio_024
