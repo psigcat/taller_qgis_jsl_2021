@@ -35,11 +35,12 @@ Diseño:
 ![Configuración del Atlas](./Imagenes/dia_anio_024.jpeg)
 ### Añadimos elemento mapa
 Propiedades del mapa:
-- Controlado por Atlas
-- Escala fijada
+- Centrar los accidentes
+- Aprovechar ajuste total a la página
+
 ### Añadimos elemento de Texto
 Propiedades del Texto:
-Insertar expresión para que muestre la fecha con el fromato deseado:
-
+- Insertar expresión para que muestre la fecha con el formato deseado:
+<code>format_date( "fecha2" , 'dddd, d ''de'' MMMM ''de'' yyyy' , 'es')</code>
 
 dia_anio_024
