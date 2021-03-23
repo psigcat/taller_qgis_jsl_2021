@@ -31,11 +31,11 @@ Diseño:
 
 ### Configuramos el Atlas
 ![Configuración del Atlas](./Imagenes/Configuracion_atlas.png)
-- Tabla de fechas
+- Capa de cobertura = Nuestra tabla de fechas (sin geometrías)
 - Nombre de página = campo "fecha"
 - Ordenar por = campo "fecha"
 - Dichero expresión de salida = :
-- <code>'dia_anio_'||   lpad( "dia_anyo" ,3,'0')</code>
+   - <code>'dia_anio_'||   lpad( "dia_anyo" ,3,'0')</code>
 
 ![Configuración del Atlas](./Imagenes/dia_anio_024.jpeg)
 
@@ -43,9 +43,10 @@ Diseño:
 Propiedades del mapa:
 - Centrar los accidentes
 - Aprovechar ajuste total a la página
+- Sin Marco ni Fondo
 
 ### Añadimos elemento de Texto
 Propiedades del Texto:
 - Insertar expresión para que muestre la fecha con el formato deseado:
-- <code>format_date( "fecha2" , 'dddd, d ''de'' MMMM ''de'' yyyy' , 'es')</code>
+   - <code>format_date( "fecha2" , 'dddd, d ''de'' MMMM ''de'' yyyy' , 'es')</code>
 
