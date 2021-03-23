@@ -20,3 +20,13 @@ Vamos a crear una composición y configuraremos el Atlas para crear una serie de
 
 ### Configuramos el Atlas
 Creamos una nueva composición de tamaño Personalizada 1920 * 1080 (FullHD)
+
+Propiedades de la página
+Tamaño de página
+- Anchura = 1920 px (192 mm)
+- Altura = 1080 px (108 mm)
+
+Diseño:
+- 254 ppp (dpi)
+- 
+![Configuración del Atlas](./Imagenes/Configuracion_atlas.png)
