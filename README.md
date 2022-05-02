@@ -20,3 +20,5 @@ https://opendata-ajuntament.barcelona.cat/data/es/dataset/accidents-gu-bcn
 
 ## Convertimos a GeoPackage
 Inmediatamente convertir la capa en formato **GeoPackage**
+
+[siguiente (Calculadora de campos)](1_calculadora_campos.md)
